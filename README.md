@@ -23,3 +23,7 @@ and to reduce overfitting problem we perform hyperparameter tuning so that we ge
 
 ### 6. Model Evaluation:
 For evaluation we check R2_Score , Mean squared error (MSE) and Mean absolute error (MAE), We check accuracy of model using R2_Score Because R2_score is called as goodness of fit so we can check how good our model is fitted and we get 87% accuracy
+
+
+### Flask And Postmen :
+Using flask we write a feamework in python and using postmen we predict the insurance charges using independent features
