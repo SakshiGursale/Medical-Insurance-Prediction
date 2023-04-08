@@ -1,29 +1,28 @@
 # Medical-Insurance-Prediction
 
-### Objective :
-The objective of this project is to develop a machine learning model that can predict medical insurance costs based on various demographic and health-related factors
+### Project Description:
 
-## Steps:
+The objective of this project is to develop a predictive model that can accurately predict the medical insurance claims for a given population. The model will be developed using historical data on medical insurance claims, demographic information, and medical records. The aim of this project is to help insurance companies to better estimate the costs of providing medical insurance coverage and to identify high-risk patients who require more intensive medical care.
 
-### 1. Data Gathering:
-We have data in csv format
+### The project will involve the following steps:
 
-### 2. Data Cleaning:
-We check whether missing values present or not , we check data types of features and count of columns and rows using df.info() function
+### Data Collection: 
+Collecting a large dataset of medical insurance claims from various sources such as hospitals, insurance companies, and government agencies. The dataset should include information on patient demographics, medical history, diagnosis, treatment, and cost.
 
-### 3.Exploratory Data Analysis (EDA):
-We plot a bar plot and pie chart of various features and we check the relationship between the features and counts and variations of features and we check correlation between dependent and independent  features using heatmap 
+### Data Preprocessing: 
+Cleaning and preprocessing the data by removing any missing values, duplicates, or irrelevant information.
 
-### 4. Feature Engineering:
-we perform onehot encoding on features which has object data type
+### Feature Engineering: 
+Extracting relevant features from the dataset that can help in predicting medical insurance claims. Some of the features that can be considered include age, gender, medical history, diagnosis, treatment, and cost.
 
-### 5. Model Building:
-We split data into two parts train and test usig train_test_split and we train a model using machine learning algorithm here we use RandomForestRegressor() algorithm
-and to reduce overfitting problem we perform hyperparameter tuning so that we get appropriate results and we predict the values.
+### Model Selection: 
+Selecting an appropriate machine learning model for predicting medical insurance claims. Some of the commonly used models include linear regression, decision trees, random forests, and neural networks.
 
-### 6. Model Evaluation:
-For evaluation we check R2_Score , Mean squared error (MSE) and Mean absolute error (MAE), We check accuracy of model using R2_Score Because R2_score is called as goodness of fit so we can check how good our model is fitted and we get 87% accuracy
+### Model Training: 
+Training the selected model on the preprocessed dataset using appropriate techniques such as cross-validation, regularization, and hyperparameter tuning.
 
+### Model Evaluation: 
+Evaluating the performance of the trained model using various metrics such as mean absolute error, mean squared error, and R-squared.
 
-### Flask And Postmen :
+### Flask And Postman :
 Using flask we write a feamework in python and using postmen we predict the insurance charges using independent features
